@@ -120,3 +120,10 @@
 0:0:0:0:0:0:0:1 - - [23/Mar/2021:16:11:40 +0900] "POST /JSP/basic/testServlet HTTP/1.1" 404 779
 0:0:0:0:0:0:0:1 - - [23/Mar/2021:16:11:43 +0900] "GET /JSP/basic/form2.html HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [23/Mar/2021:16:11:45 +0900] "POST /JSP/basic/testServlet HTTP/1.1" 404 779
+127.0.0.1 - - [23/Mar/2021:23:10:42 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [23/Mar/2021:23:12:56 +0900] "GET /JSP/basic/form3.html HTTP/1.1" 200 367
+0:0:0:0:0:0:0:1 - - [23/Mar/2021:23:13:00 +0900] "POST /JSP/CalsServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Mar/2021:23:13:01 +0900] "GET /JSP/basic/result.jsp HTTP/1.1" 200 162
+0:0:0:0:0:0:0:1 - - [23/Mar/2021:23:13:47 +0900] "GET /JSP/basic/homework.html HTTP/1.1" 200 594
+0:0:0:0:0:0:0:1 - - [23/Mar/2021:23:14:03 +0900] "POST /JSP/basic/homework.jsp HTTP/1.1" 200 277
+0:0:0:0:0:0:0:1 - - [23/Mar/2021:23:14:56 +0900] "GET /JSP/basic/homework.html HTTP/1.1" 304 -
